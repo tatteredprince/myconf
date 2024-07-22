@@ -22,6 +22,7 @@ map <A-Left> = <C-W><Left>
 map <A-Right> = <C-W><Right>
 
 autocmd FileType yaml set tabstop=2
+autocmd BufRead Makefile set noexpandtab
 
 set clipboard=unnamed
 nnoremap Y "+y
