@@ -24,6 +24,7 @@ map <A-Right> = <C-W><Right>
 autocmd FileType yaml set tabstop=2
 autocmd BufRead Makefile set noexpandtab
 
+" Have to install vim-gtk* for enhanced clipboard to work:
 set clipboard=unnamed
 nnoremap Y "+y
 vnoremap Y "+y
