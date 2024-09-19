@@ -16,10 +16,16 @@ set list
 highlight NonText ctermfg=LightCyan
 highlight SpecialKey ctermfg=LightRed
 
-map <A-Up> = <C-W><Up>
-map <A-Down> = <C-W><Down>
-map <A-Left> = <C-W><Left>
-map <A-Right> = <C-W><Right>
+nmap <C-Up> <C-W><Up>
+nmap <C-Down> <C-W><Down>
+nmap <C-Left> <C-W><Left>
+nmap <C-Right> <C-W><Right>
+
+nmap <lt> :tabprevious<CR>
+nmap > :tabnext<CR>
+
+nmap <C-s> :split<CR>
+nmap <C-v> :vsplit<CR>
 
 autocmd FileType yaml set tabstop=2
 autocmd BufRead Makefile set noexpandtab
