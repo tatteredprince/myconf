@@ -24,8 +24,8 @@ nmap <C-Right> <C-W><Right>
 nmap <lt> :tabprevious<CR>
 nmap > :tabnext<CR>
 
-nmap <C-s> :split<CR>
-nmap <C-v> :vsplit<CR>
+nmap <Bar> :split<CR>
+nmap <C-\> :vsplit<CR>
 
 autocmd FileType yaml set tabstop=2
 autocmd BufRead Makefile set noexpandtab
