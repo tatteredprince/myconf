@@ -32,6 +32,8 @@ nmap <C-X> :q<CR>
 nmap <C-Q> :qa!<CR>
 nmap <C-A> :wqa<CR>
 
+nmap <S-Tab> :set invhlsearch<CR>
+
 autocmd FileType yaml set tabstop=2
 autocmd BufRead Makefile set noexpandtab
 
