@@ -3,6 +3,7 @@ set expandtab
 set number
 set hlsearch
 set noeol
+set tabpagemax=99
 
 set laststatus=2
 set statusline=%F\ %l,%c
