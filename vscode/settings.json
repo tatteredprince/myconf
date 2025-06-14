@@ -1,0 +1,12 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.wordWrap": "on",
+    "workbench.editor.wrapTabs": true,
+    "window.zoomLevel": -1,
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "none",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabSizing": "shrink",
+    "editor.insertSpaces": false
+}
