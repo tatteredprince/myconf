@@ -1,0 +1,77 @@
+{
+    "window.zoomLevel": -1,
+    "git.blame.editorDecoration.enabled": false,
+
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "off",
+    "editor.minimap.enabled": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.rulers":
+    [
+        {
+            "column": 80,
+            "color": "#252525"
+        },
+        {
+            "column": 120,
+            "color": "#252525"
+        },
+        {
+            "column": 160,
+            "color": "#252525"
+        }
+    ],
+
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.wrapTabs": true,
+    "workbench.editor.showIcons": false,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.revealIfOpen": true,
+    "workbench.editor.customLabels.enabled": false,
+    "workbench.editorAssociations":
+    {
+        "git-rebase-todo": "default"
+    },
+    "workbench.colorCustomizations":
+    {
+        "editor.lineHighlightBackground": "#00000071",
+        "tab.activeBorderTop": "#1a1d2d",
+        "tab.activeBorder": "#1a1d2d",
+        "tab.activeBackground": "#1a1d2d",
+        "tab.activeForeground": "#ffff00",
+        "tab.unfocusedActiveBorder": "#1a1d2d"
+    },
+    "workbench.action.closeWindow": true,
+
+    "remote.SSH.enableAgentForwarding": false,
+    "remote.SSH.enableDynamicForwarding": false,
+    "remote.SSH.enableX11Forwarding": false,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remoteServerListenOnSocket": false,
+    "remote.SSH.remotePlatform":
+    {
+        "11.22.33.44": "linux",
+        "dev": "linux"
+    },
+
+    "python.analysis.extraPaths":
+    [
+        "/home/user/pydev"
+    ],
+    "python.autoComplete.extraPaths":
+    [
+        "/home/user/pydev"
+    ],
+    "[python]":
+    {
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off"
+        "editor.defaultColorDecorators": "never",
+        "diffEditor.ignoreTrimWhitespace": false,
+        "gitlens.codeLens.symbolScopes":
+        [
+            "!Module"
+        ],
+    },
+}
