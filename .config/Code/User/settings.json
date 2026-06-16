@@ -5,20 +5,10 @@
     "editor.wordWrap": "off",
     "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.rulers":
-    [
-        {
-            "column": 80,
-            "color": "#252525"
-        },
-        {
-            "column": 120,
-            "color": "#252525"
-        },
-        {
-            "column": 160,
-            "color": "#252525"
-        }
+    "editor.rulers": [
+        {"column": 80, "color": "#252525"},
+        {"column": 120, "color": "#252525"},
+        {"column": 160, "color": "#252525"}
     ],
 
     "workbench.tree.indent": 20,
@@ -28,12 +18,10 @@
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.revealIfOpen": true,
     "workbench.editor.customLabels.enabled": false,
-    "workbench.editorAssociations":
-    {
+    "workbench.editorAssociations": {
         "git-rebase-todo": "default"
     },
-    "workbench.colorCustomizations":
-    {
+    "workbench.colorCustomizations": {
         "editor.lineHighlightBackground": "#00000071",
         "tab.activeBorderTop": "#1a1d2d",
         "tab.activeBorder": "#1a1d2d",
@@ -48,28 +36,23 @@
     "remote.SSH.enableX11Forwarding": false,
     "remote.SSH.useLocalServer": false,
     "remote.SSH.remoteServerListenOnSocket": false,
-    "remote.SSH.remotePlatform":
-    {
+    "remote.SSH.remotePlatform": {
         "11.22.33.44": "linux",
         "dev": "linux"
     },
 
-    "python.analysis.extraPaths":
-    [
+    "python.analysis.extraPaths": [
         "/home/user/pydev"
     ],
-    "python.autoComplete.extraPaths":
-    [
+    "python.autoComplete.extraPaths": [
         "/home/user/pydev"
     ],
-    "[python]":
-    {
+    "[python]": {
         "editor.formatOnType": true,
         "editor.wordBasedSuggestions": "off"
         "editor.defaultColorDecorators": "never",
         "diffEditor.ignoreTrimWhitespace": false,
-        "gitlens.codeLens.symbolScopes":
-        [
+        "gitlens.codeLens.symbolScopes": [
             "!Module"
         ],
     },
@@ -79,5 +62,4 @@
             "shadow": true
         }
     }
-
 }
