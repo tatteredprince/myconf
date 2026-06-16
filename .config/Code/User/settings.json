@@ -1,5 +1,4 @@
 {
-    "window.zoomLevel": -1,
     "git.blame.editorDecoration.enabled": false,
 
     "editor.insertSpaces": true,
@@ -74,4 +73,11 @@
             "!Module"
         ],
     },
+
+    "gopls": {
+        "ui.diagnostic.analyses": {
+            "shadow": true
+        }
+    }
+
 }
